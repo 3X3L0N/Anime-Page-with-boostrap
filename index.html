@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animes I La mejor página de animes del Perú</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#carouselExampleAutoplaying">Animes</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#latest"
+                  >Últimos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#top">Top</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categoría
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Shonen</a></li>
+                  <li><a class="dropdown-item" href="#">Seinen</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Shoujo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Manga</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Nombre"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images6.alphacoders.com/799/thumb-1920-799054.jpg"
+              class="w-100 vh-100 object-fit-cover d-block"
+              alt="Fullmetal Alchemist"
+            />
+            <div class="carousel-caption text-white d-none d-md-block">
+              <h5>Full Metal Alchemy</h5>
+              <p>
+                los hermanos Elric buscan la Piedra Filosofal para recuperar sus
+                cuerpos, enfrentando dilemas morales en su viaje.
+              </p>
+              <div class="mb-2">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">
+                  Secondary
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.alphacoders.com/465/thumb-1920-465254.jpg"
+              class="w-100 vh-100 object-fit-cover d-block"
+              alt="Dragon Ball"
+            />
+            <div class="carousel-caption text-white d-none d-md-block">
+              <h5>Dragon Ball Z</h5>
+              <p>
+                Sigue las aventuras de Goku mientras se convierte en un poderoso
+                guerrero.
+              </p>
+              <div class="mb-2">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">
+                  Secondary
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images2.alphacoders.com/516/516664.jpg"
+              class="w-100 vh-100 object-fit-cover d-block"
+              alt="One Piece"
+            />
+            <div class="carousel-caption text-white d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Sigue a Monkey D. Luffy y su tripulación en su búsqueda del
+                tesoro más grande mientras enfrentan desafíos y enemigos en un
+                mundo vasto y misterioso.
+              </p>
+              <div class="mb-2">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">
+                  Secondary
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section class="py-5" id="latest">
+        <div class="container d-flex flex-column gap-4">
+          <h2 class="text-center">Los últimos animes</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://larepublica.cronosmedia.glr.pe/original/2022/06/11/62a51f0decde1c484c2fab1f.jpg"
+                  alt="Dragon Ball Super"
+                  class="w-100 card-img-top object-fit-cover d-block"
+                  width="455"
+                  height="256"
+                  style="height: 256px"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "Dragon Ball Super" continúa las aventuras de Goku y sus
+                    amigos mientras enfrentan amenazas cósmicas y desafíos en
+                    torneos de artes marciales, explorando nuevos mundos y
+                    poderes.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Editar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://i.blogs.es/0ab52d/boruto/1366_2000.jpeg"
+                  alt="Boruto"
+                  class="w-100 card-img-top object-fit-cover d-block"
+                  width="455"
+                  height="256"
+                  style="height: 256px"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "Boruto" sigue al hijo de Naruto, Boruto Uzumaki, mientras
+                    busca su identidad ninja en una era de paz y desafíos
+                    tecnológicos en la Aldea de la Hoja.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Editar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://libertaddigitalstorage.blob.core.windows.net/radiolibertad-filecontainer/854_480_xuai1ctoshm.jpg"
+                  alt="Kimetsu No Yaiba"
+                  class="w-100 card-img-top object-fit-cover d-block"
+                  width="455"
+                  height="256"
+                  style="height: 256px"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "Kimetsu No Yaiba" narra la historia de Tanjiro, un joven
+                    cazador de demonios que busca vengar a su familia y salvar a
+                    su hermana Nezuko, quien se convirtió en un demonio. Lucha
+                    contra demonios y busca una cura.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Editar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://www.tebeosfera.com/T3content/img/T3_muestras/T3_numeros/f/7/m_spy_x_family_2020_ivrea_2_-clon-_713f7.jpg"
+                  alt="Spy x Family"
+                  class="w-100 card-img-top object-fit-cover d-block"
+                  width="455"
+                  height="256"
+                  style="height: 256px"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "Spy x Family" sigue a un espía, un telepata y una asesina
+                    que forman una familia falsa para una misión. Comedia,
+                    acción y emocionantes revelaciones en un mundo de espionaje.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Editar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://pbs.twimg.com/media/FW2IckNWAAUJFgE.jpg"
+                  alt="Chainsaw Man"
+                  class="w-100 card-img-top object-fit-cover d-block"
+                  width="455"
+                  height="256"
+                  style="height: 256px"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "Chainsaw Man" sigue a Denji, un cazador de demonios con
+                    poderes de una motosierra demoníaca, en su lucha contra
+                    horrores sobrenaturales y sus propios demonios internos.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Editar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://i0.wp.com/modogeeks.com/wp-content/uploads/2016/05/one_piece_burning_blood.jpg?fit=854%2C480&ssl=1"
+                  alt="One Piece"
+                  class="w-100 card-img-top object-fit-cover d-block"
+                  width="455"
+                  height="256"
+                  style="height: 256px"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "One Piece" sigue a Monkey D. Luffy y su tripulación en
+                    busca del tesoro más grande, el One Piece, mientras
+                    enfrentan piratas y marines en un vasto mundo lleno de
+                    aventuras.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Editar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://i.blogs.es/ce088c/bleach/1366_2000.png"
+                  alt="Bleach"
+                  class="w-100 card-img-top object-fit-cover d-block"
+                  width="455"
+                  height="256"
+                  style="height: 256px"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    "Bleach" sigue a Ichigo Kurosaki, un joven con habilidades
+                    de cazador de almas, mientras lucha contra espíritus
+                    malignos y desafía a seres poderosos en su camino para
+                    proteger a los vivos.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Editar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 bg-body-secondary" id="top">
+        <div class="container d-flex flex-column gap-4">
+          <h2 class="text-center">Top de animes</h2>
+          <div class="d-flex flex-column gap-3">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-8">
+                <h3>Ataque a los Titanes</h3>
+                <p>
+                  se desarrolla en un mundo donde la humanidad lucha por
+                  sobrevivir contra gigantes devoradores de hombres conocidos
+                  como Titanes. La historia sigue a Eren Yeager, Mikasa Ackerman
+                  y Armin Arlert mientras se unen al Cuerpo de Exploración para
+                  descubrir el misterio detrás de los Titanes y proteger a la
+                  humanidad. La serie ofrece una emocionante narrativa llena de
+                  acción, intriga y un trasfondo profundo.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="https://hips.hearstapps.com/hmg-prod/images/ataque-a-los-titanes-644d23bc6b6b5.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+                  alt="Ataque a los Titanes"
+                  width="455"
+                  height="256"
+                  class="img-fluid object-fit-cover border rounded"
+                />
+              </div>
+            </div>
+            <div class="row d-flex align-items-center">
+              <div class="col-md-4">
+                <img
+                  src="https://i.pinimg.com/564x/76/43/26/7643269388108a4c66aaeb17acc5c3c6.jpg"
+                  alt="Cyberpunk 2077"
+                  width="455"
+                  height="256"
+                  class="img-fluid object-fit-cover border rounded"
+                />
+              </div>
+              <div class="col-md-8">
+                <h3>Cyberpunk 2077</h3>
+                <p>
+                  Es una serie de anime que se desarrolla en el mundo de Night
+                  City. Sigue a un grupo de edgerunners, marginados
+                  cibermejorados, mientras luchan por la supervivencia y la
+                  libertad en un futuro distópico lleno de tecnología y
+                  peligros. La serie promete acción, intriga y exploración de
+                  los oscuros secretos de este universo cyberpunk.
+                </p>
+              </div>
+            </div>
+            <div class="row d-flex align-items-center">
+              <div class="col-md-8">
+                <h3>Undead Girl Murder Farce</h3>
+                <p>
+                  Es un anime que se sumerge en un mundo donde los muertos
+                  regresan a la vida. Michiru, la protagonista, investiga una
+                  serie de asesinatos enigmáticos que involucran a chicas no
+                  muertas. La trama se enreda con misterio y horror mientras
+                  Michiru desentraña oscuros secretos y desafía las convenciones
+                  de la vida y la muerte.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2023/07/Undead-Girl-Murder-Farce.jpg?resize=1024%2C575&ssl=1"
+                  alt="Undead Girl Murder Farce"
+                  width="455"
+                  height="256"
+                  class="img-fluid object-fit-cover border rounded"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
