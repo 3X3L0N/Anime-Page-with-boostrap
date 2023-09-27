@@ -10,13 +10,25 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    
   </head>
 
   <body>
-    <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#carouselExampleAutoplaying">Animes</a>
+
+    <header class="fixed-top ">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary pl-4 pr-4">
+        
+        
+        
+        <a class="navbar-brand" href="#carouselExampleAutoplaying">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
+            <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7z"/>
+          </svg>
+          AnimeX
+        </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -41,7 +53,7 @@
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="#categories"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -49,12 +61,18 @@
                   Categorías
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Shonen</a></li>
-                  <li><a class="dropdown-item" href="#">Seinen</a></li>
+                  <li><a class="dropdown-item" href="#Shounen">Shounen</a></li>
+                  <hr class="dropdown-divider" />
+                  <li><a class="dropdown-item" href="#Seinen">Seinen</a></li>
+                
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
-                  <li><a class="dropdown-item" href="#">Shoujo</a></li>
+                  <li><a class="dropdown-item" href="#Shoujo">Shoujo</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#Isekai">Isekai</a></li>
                 </ul>
               </li>
              
@@ -74,9 +92,9 @@
         </div>
       </nav>
     </header>
+
+
     <main>
-
-
       <!-- Carrusel -->
       <section
         id="carouselExampleAutoplaying"
@@ -579,7 +597,7 @@
                 <!--Tarjeta 1-->
                 <div class="card text-bg-dark" id="Shounen">
                     <img src="https://cdn.superaficionados.com/imagenes/dragon-ball-0.jpg"
-                        class="card-img opacity-25 " alt="Shounen">
+                        style="object-fit: cover;" class="card-img opacity-25 " alt="Shounen">
                     <div class="card-img-overlay">
                         <h4 class="card-title text-primary">Shounen</h4>
                         <p class="card-text">Significa "niño" en traducción literal del japonés. Este tipo de anime
@@ -621,7 +639,7 @@
                 <!--Tarjeta 4-->
                 <div class="card text-bg-dark" id="Isekai">
                   <img src="https://kokohai.com/wp-content/uploads/2022/09/isekai-1000x563.jpg"
-                      class="card-img opacity-25 " alt="Isekai">
+                      style="object-fit: cover;" class="card-img opacity-25 " alt="Isekai">
                   <div class="card-img-overlay">
                       <h4 class="card-title text-primary ">Isekai</h4>
                       <p class="card-text">Isekai es un subgénero de fantasía japonesa, y una temática típica del manga y anime que giran en torno a un personaje o un grupo de personajes de la Tierra que de manera intencional o accidental termina en un universo paralelo, un mundo de fantasía</p>
@@ -688,7 +706,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-8">
             <p>
-              ¡Bienvenido a nuestra comunidad dedicada al mundo del anime! En nuestro footer, encontrarás recursos y enlaces para que tu experiencia en nuestra página sea aún más enriquecedora.
+              ¡Bienvenido a nuestra comunidad dedicada al mundo del anime! En nuestro pagina, encontrarás recursos y enlaces para que tu experiencia en nuestra página sea aún más enriquecedora.
             </p>
           </div>
         </div>
